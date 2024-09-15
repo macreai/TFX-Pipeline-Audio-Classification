@@ -1,7 +1,4 @@
-# Submission 1: Heartbeat Classification
-Nama: Arda Ardiyansyah
 
-Username dicoding: arda24
 
 | | Deskripsi |
 | ----------- | ----------- |

@@ -1,0 +1,377 @@
+feature {
+  name: "IQR_chroma_cqt_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "IQR_chroma_stft_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "IQR_mfcc_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "IQR_rms_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Kurtosis_chroma_cqt_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Kurtosis_chroma_stft_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Kurtosis_mfcc_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Kurtosis_rms_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Label_xf"
+  type: INT
+  int_domain {
+    min: -1
+    max: 4
+    is_categorical: true
+  }
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Max_chroma_cqt_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Max_chroma_stft_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Max_mfcc_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Max_rms_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Mean_chroma_cqt_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Mean_chroma_stft_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Mean_mfcc_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Mean_rms_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Median_chroma_cqt_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Median_chroma_stft_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Median_mfcc_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Median_rms_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "MinMax_chroma_cqt_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "MinMax_chroma_stft_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "MinMax_mfcc_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "MinMax_rms_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Quartile_1_chroma_cqt_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Quartile_1_chroma_stft_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Quartile_1_mfcc_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Quartile_1_rms_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Quartile_3_chroma_cqt_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Quartile_3_chroma_stft_xf"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}

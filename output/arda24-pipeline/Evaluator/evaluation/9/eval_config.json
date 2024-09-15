@@ -1,0 +1,51 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "signatureName": "serving_default",
+        "labelKey": "Label_xf",
+        "preprocessingFunctionNames": [
+          "transform_features"
+        ]
+      }
+    ],
+    "slicingSpecs": [
+      {}
+    ],
+    "metricsSpecs": [
+      {
+        "metrics": [
+          {
+            "className": "ExampleCount"
+          },
+          {
+            "className": "AUC"
+          },
+          {
+            "className": "Precision"
+          },
+          {
+            "className": "Recall"
+          },
+          {
+            "className": "SparseCategoricalAccuracy",
+            "threshold": {
+              "valueThreshold": {
+                "lowerBound": 0.5
+              }
+            }
+          }
+        ],
+        "modelNames": [
+          ""
+        ]
+      }
+    ]
+  },
+  "version": "0.46.0",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "": "output/arda24-pipeline/Trainer/model/8/Format-Serving"
+  }
+}

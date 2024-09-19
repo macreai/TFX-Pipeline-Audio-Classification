@@ -12,3 +12,5 @@
 | Opsi deployment | Saya menggunakan railway untuk mendeploy model, hanya memerlukan perintah railway up dan railway sudah dapat mendeteksi dockerfile secara otomatis |
 | Web app | Tautan web app yang digunakan untuk mengakses model serving. [Heartbeat-Classification-Model](https://agile-vibrancy-production.up.railway.app/v1/models/heartbeat-classification-model/metadata) |
 | Monitoring | Saya menggunakan Grafana dengan menyinkronasikan dengan Prometheus, metric yang saya monitoring adalah jumlah request pada model serve yang ada di server railway |
+
+![image](https://github.com/user-attachments/assets/3e0d1a35-2c05-459a-878b-7513d8e6684e)
